@@ -6,59 +6,77 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <header>
-        <h1>BROCK LOGISTICS</h1>
+    <div class="navbar">
+        <div class="logo">
+            <a href="/" class="head">BROCK LOGISTICS</a>
+        </div>
         
         <nav>
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about us">ABOUT US</a></li>
-                <li><a href="#services">SERVICES</a></li>
-                <li><a href="#location">LOCATION</a></li>
-                <li><a href="#contacts">CONTACTS</a></li>
-                <li><a href="#news"> NEWS</a></li>
+            <ul class="nav-links">
+                <a href="HOME"><li>HOME</li></a>
+                <a href="ABOUT"><li>ABOUT</li></a>
+                <a href="SERVICES"><li>SERVICES</li></a>
+                <a href="LOCATION"><li>LOCATION</li></a>
+                <a href="CONTACTS"><li>CONTACTS</li></a>
+                <a href="NEWS"><li>NEWS</li></a>
+                <a href="MEDIA"><li>MEDIA</li></a>
+   
             </ul>
         </nav>
-    </header>
-    <main>
-        <h1>Brock Logistics</h1>
+    </div>
+    <section class="body">
+        <div class="details">
+        <h1 class="tittle">Brock Logistics</h1>
         <p>Offers unbeatable trucking and transport services<br>
            starting from loading to unloading and maintaining <br>
            the higher standards in terms of safety while in transit,<br>
-           wetake nothing to chance!</p>
-    </main>
-    <section>
-        <button>GET STARTED</button>
+           we take nothing to chance!
+        </p>
+     <div class="buttons">
+    
+        <button><a href="GET STARTED">GET STARTED</a></button>
+
+     </div>
+     <div class="LOGIN">
+    
+        <h1>LOGIN TO BROCK LOGISTICS</h1>
+         <form>
+              <label for="fname">FIRST NAME:</label><br>
+              <input type="text" id="fname" name="fname"><br>
+              <label for="lname">LAST NAME:</label><br>
+              <input type="text" id="lname" name="lname"><br>
+              <label for="email">ENTER YOUR EMAIL:</label><br>
+              <input type="email" id="email" name="email"><br>
+              <input type="submit">
+        </form>
+    </div>
+    <div class="image">
+        <img src="./images combined.jpeg" alt="">
+
+    </div>
     </section>
 
-    <section2>
-        <h1>LOGIN TO BROCK LOGISTICS</h1>
-        <form>
-        <label for="fname">FIRST NAME:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">LAST NAME:</label><br>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="email">ENTER YOUR EMAIL:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <input type="submit">
-        </form>
-    </section2>
 <footer>
     <h1>OUR SERVICES</h1>
     <nav>
+        
         <ul>
-            <li><a href="ground shipping">GROUND SHIPPING</a></li>
-            <p>Brock logistic offer transport via <br>our various
+            <li>
+                <a href="ground shipping">GROUND SHIPPING</a>
+            </li>
+                <p>Brock logistic offer transport via <br>our various
                trucks across the continent</p>
-             <img src="./istockphoto-859916128-612x612 truck.jpg" alt="">
-            <li><a href="air  freight">AIR FREIGHT</a></li>
-            <p>Brock logistic offers transport by air via <br>
+            </li>   
+            <li>
+                <a href="air  freight">AIR FREIGHT</a></li>
+                <p>Brock logistic offers transport by air via <br>
                 our cargo planes across the world</p>
-                <img src="./istockphoto-1332501286-612x612plane.jpg" alt="">
-            <li><a href="sea delivery">SEA DELIVERY</a></li>
-            <p>Brock logistics offers transport through the sea via <br>
+            </li>    
+            <li> 
+                <a href="sea delivery">SEA DELIVERY</a></li>
+                <p>Brock logistics offers transport through the sea via <br>
                 our various ferries and ships</p>
-                <img src="./depositphotos_11805248-stock-photo-cruise-liner.jpg" alt="">
+            </li>
         </ul>
     </nav>
 </footer>    
