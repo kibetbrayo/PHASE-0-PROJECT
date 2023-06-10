@@ -6,7 +6,6 @@ body{
     flex-direction: column;
     max-width: 1200px;
     background-size: cover;
-    background-image: url(./istockphoto-1273907220-1024x1024\ background.jpg);
 }
 .navbar{
     list-style: none;
