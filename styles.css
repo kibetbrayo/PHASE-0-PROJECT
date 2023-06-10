@@ -1,22 +1,24 @@
+
 body{
     font-family: 'Times New Roman', Times, serif;
-    max-width: 1500px;
     background-color: wheat;
     display: flex;
     justify-self: unset;
     flex-direction: column;
-
+    max-width: 1200px;
+    background-size: cover;
+    background-image: url(./istockphoto-1409387561-170667a\ 34.webp);
 }
 .navbar{
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 4px;
+    padding: 4px;
     display: flex;
     justify-content: space-between;
     box-shadow: 4px 4px 48px rgba(0, 0, 0, 0.4);
     align-items: center;
     text-decoration: none;
-    background-color: aqua;
+    background-color: rgb(255, 72, 0);
 }
 a{
     text-decoration: none;
@@ -32,47 +34,7 @@ nav ul {
     padding: 0;
     display: flex;
 }  
-footer{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;/*align items to the right*/
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    align-items: center;
-    text-decoration: none;
-
-}
-footer nav ul{
-    padding-right: 2rem;
-    transition: all .5s ease-in-out;
-  
-}
-footer nav li{
-    margin: 0 10px;
-}
-footer ul {
-    list-style: none;
-    margin: 0; 10px;
-    padding: 0;
-    display: flex;
-    box-shadow: 0 2px 4px;
-    align-items: center;
-    text-align: center;
-}
-.image{
-        margin-left: auto;
-        float: right;
-        margin-top: 20px;
-        max-height: max-content;
-        position: absolute;
-        top: 2px;
-        right: 1px;
-        
-        
-    
-        ;
-    }
-    button{
-        background-color: brown;
-    }
+       
+button{
+        background-color: rgb(177, 157, 157);
+ }
